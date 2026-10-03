@@ -1,0 +1,16 @@
+{
+  "image": "mycelpf/mycel_helix:0.1.0-arm64.1",
+  "id": "sha256:7794cb047a8845214a82234147af2e03be5ccc240dff8d41b8fa9146e7030e69",
+  "platform": "linux/arm64",
+  "command_tests": 2,
+  "smoke": "PASS: helix --help",
+  "libraries": "resolved",
+  "model_cache": "present",
+  "rds_ca": "present",
+  "registry_published": false,
+  "release_repository": "https://github.com/mycelpf/mycel_helix",
+  "version": "0.1.0-arm64.1",
+  "kubernetes_rollout": "not executed",
+  "archive_sha256": "86098c2345f0abcc7f5c96fd40eb84d4e4a088997cb9424761b030b68e38d841",
+  "archive_bytes": 201728051
+}
