@@ -1,0 +1,26 @@
+{
+ "version": "0.1.1",
+ "image": "ghcr.io/mycelpf/mycel_helix:0.1.1",
+ "digest": "sha256:3d2a723bd991a597c3f7f32c2d51f55d3c433c34f741942af9b7b123af7180e5",
+ "platforms": {
+  "linux/amd64": {
+   "digest": "sha256:8b94a54c8b6787caaf7a4904ffbcfda89025d22bab291cbfa07b872a9fdca7f6",
+   "smoke": "PASS: helix --help",
+   "reader_gate": "PASS",
+   "rules_api": "PASS: workbook import, publish and rate",
+   "anonymous_pull": true
+  },
+  "linux/arm64": {
+   "digest": "sha256:f79a33ea8f89e0cb7022a7fa1c7f826ea9b38228d25effa28258031832206f34",
+   "smoke": "PASS: helix --help",
+   "reader_gate": "PASS",
+   "rules_api": "PASS: workbook import, publish and rate",
+   "anonymous_pull": true
+  }
+ },
+ "registry_published": true,
+ "anonymous_manifest_access": true,
+ "pulled_by_digest": true,
+ "image_content_scan": "PASS: no spreadsheet, environment or credential files",
+ "release_repository": "https://github.com/mycelpf/mycel_helix"
+}
